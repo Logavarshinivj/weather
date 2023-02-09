@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.container{
+    background-color:#ffffff;
+    position:absolute;
+    padding:25px 25px;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    width:10cm;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px;
+    
+}
+.searchbar{
+    display:grid;
+    grid-template-columns:9fr 3fr;
+    gap:0.5cm;
+}
+
+
+
+
+
+.searchbar input{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid blue;
+}
